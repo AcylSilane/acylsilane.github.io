@@ -53,17 +53,17 @@ plugins:
 
 # theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "neon" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
 title                    : "James Dean's Website"
 title_separator          : "-"
-subtitle                 : Version 1.0 # site tagline that appears below site title in masthead
+subtitle                 : Computational Chemist # site tagline that appears below site title in masthead
 name                     : "James Dean"
 description              : "Well, it's definitely a website!"
 url                      : "https://acylsilane.github.io"
-baseurl                  : # the subpath of your site, e.g. "/blog"
+baseurl                  : / # the subpath of your site, e.g. "/blog"
 repository               : "AcylSilane/acylsilane.github.io"
 teaser                   : assets/images/teaser_default.png
 logo                     : "assets/images/logo.png" # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
@@ -136,7 +136,7 @@ analytics:
 author:
   name             : "James Dean"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "A data-driven computational chemist with a passion for solving hard problems."
+  bio              : "A researcher with a specialization in Density-Functional Theory and a passion for solving difficult problems."
   location         : "Pittsburgh, Pennsylvania"
   email            :  "jrd101 [at_symbol] pitt.edu"
   links:
