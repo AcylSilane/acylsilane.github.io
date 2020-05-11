@@ -1,5 +1,5 @@
 ---
-title: "Publicaitons"
+title: "Publications"
 layout: single
 header:
     overlay_image: assets/images/banner_default.jpg
