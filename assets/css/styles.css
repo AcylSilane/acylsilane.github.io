@@ -23,12 +23,12 @@ header {
 
 .header-container {
     display: grid;
-    grid-template-columns: 300px auto;
+    grid-template-columns: 128px auto;
     margin: 10px 10px 10px 10px;
 }
 
 header img {
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
 }
 .header-image {
