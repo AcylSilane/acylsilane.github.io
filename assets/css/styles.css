@@ -40,3 +40,16 @@ header img {
 .header-content {
     text-align: left;
 }
+
+.portfolio-image {
+    text-align: center;
+}
+
+.portfolio-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+.portfolio-image p {
+    text-align: justify;
+}
