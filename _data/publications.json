@@ -1,0 +1,174 @@
+[
+    {
+        "title": "Computational Investigation of CO2 Electroreduction on Tin Oxide and Predictions of Ti, V, Nb, and Zr Dopants for Improved Catalysis",
+        "authors": [
+            "Saravanan, K.",
+            "Basdogan, Y.",
+            "Dean, J.",
+            "Keith, J. A."
+        ],
+        "journalLong": "Journal of Materials Chemistry A",
+        "journalShort": "J. Mater. Chem. A",
+        "year": 2017,
+        "month": 3,
+        "day": 2,
+        "cover": false,
+        "volume": 5,
+        "pages": "11756-11763",
+        "DOI": "/10.1039/C7TA00405B"
+    },
+    {
+        "title": "Design of Copper-Based Bimetallic Nanoparticles for Carbon Dioxide Adsorption and Activation",
+        "authors": [
+            "Dean, J.",
+            "Yang, Y.",
+            "Austin, N.",
+            "Veser, G.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "ChemSusChem",
+        "journalShort": "ChemSusChem",
+        "year": 2018,
+        "month": 4,
+        "day": 9,
+        "volume": 11,
+        "issue": 7,
+        "pages": "1169-1178",
+        "cover": true,
+        "coverImage": "assets/images/covers/chemsuschem_2018.jpg",
+        "DOI": "10.1002/cssc.201702342"
+    },
+    {
+        "title": "Predicting Metal-Support Interactions in Oxide-Supported Single-Atom Catalysts",
+        "authors": [
+            "Kaiyang, T.",
+            "Dixit, M.",
+            "Dean, J.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "Industrial & Engineering Chemistry Research",
+        "journalShort": "Ind. Eng. Chem. Res.",
+        "year": 2019,
+        "month": 10,
+        "day": 8,
+        "volume": 58,
+        "issue": 44,
+        "pages": "20236-20246",
+        "cover": true,
+        "coverImage": "assets/images/covers/indengchemres_2019.png",
+        "DOI": "10.1021/acs.iecr.9b04068"
+    },
+    {
+        "title": "Unfolding Adsorption on Metal Nanoparticles: Connecting Stability with Catalysis",
+        "authors": [
+            "Dean, J.",
+            "Taylor, M. G.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "Science Advances",
+        "journalShort": "Sci. Adv.",
+        "year": 2019,
+        "month": 9,
+        "day": 1,
+        "volume": 5,
+        "issue": 9,
+        "pages": "eaax5101",
+        "DOI": "10.1126/sciadv.aax5101",
+        "cover": false
+    },
+    {
+        "title": "Rapid Prediction of Bimetallic Mixing Behavior at the Nanoscale",
+        "authors": [
+            "Dean, J.",
+            "Cowan, M. J.",
+            "Estes, J.",
+            "Ramadan, M.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "ACS Nano",
+        "journalShort": "ACS Nano",
+        "year": 2020,
+        "month": 6,
+        "day": 9,
+        "volume": 14,
+        "issue": 7,
+        "pages": "8171-8180",
+        "cover": false,
+        "DOI": "10.1021/acsnano.0c01586"
+    },
+    {
+        "title": "Improving Alkane Dehydrogenation Activity on γ-Al2O3 through Ga doping",
+        "authors": [
+            "Abdelgaid, M.",
+            "Dean, J.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "Catalysis Science & Technology",
+        "journalShort": "Catal. Sci. Technol.",
+        "year": 2020,
+        "month": 9,
+        "day": 10,
+        "volume": 10,
+        "issue": 21,
+        "pages": "7194-7202",
+        "cover": false,
+        "DOI": "10.1039/D0CY01474E"
+    },
+    {
+        "title": "Designing Stable Bimetallic Nanoclusters via an Iterative Two-Step Optimization Approach",
+        "authors": [
+            "Yin, X.",
+            "Isenberg, N. M.",
+            "Hanselman, C. L.",
+            "Dean, J.",
+            "Mpourmpakis, G.",
+            "Gounaris, C. E."
+        ],
+        "journalLong": "Molecular Systems Design & Engineering",
+        "journalShort": "Mol. Syst. Des. Eng.",
+        "year": 2021,
+        "month": 6,
+        "day": 16,
+        "volume": 6,
+        "issue": 7,
+        "pages": "545-557",
+        "cover": "False",
+        "DOI": "10.1039/D1ME00027F"
+    },
+    {
+        "title": "CuZrO3: If it Exists, it Should be a Sandwich",
+        "authors": [
+            "Dean, J.",
+            "Yang, Y.",
+            "Veser, G.",
+            "Mpourmpakis, G."
+        ],
+        "journalLong": "Physical Chemistry Chemical Physics",
+        "journalShort": "Phys. Chem. Chem. Phys.",
+        "year": 2021,
+        "month": 5,
+        "day": 21,
+        "volume": 23,
+        "issue": 41,
+        "pages": "23748-23757",
+        "cover": "False",
+        "DOI": "10.1039/D1CP02245H"
+    },
+    {
+        "title": "Interpretable Machine Learning for Materials Design",
+        "authors": [
+            "Dean, J.",
+            "Scheffler, M.",
+            "Purcell, T. A. R.",
+            "Barabash, S. V.",
+            "Bhowmik, R.",
+            "Bazhirov, T."
+        ],
+        "journalLong": "arXiv",
+        "journalShort": "arXiv",
+        "year": 2021,
+        "month": 12,
+        "day": 1,
+        "URL": "https://arxiv.org/abs/2112.00239"
+    }
+]
