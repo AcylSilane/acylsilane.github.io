@@ -1,7 +1,32 @@
 [
     {
-        "filename": "placeholder.svg",
-        "alt-text": "This is a placeholder image.",
-        "caption": "This is a  placeholder image I made as an SVG in a text editor."
+        "filename": "chemsuschem_2018.jpg",
+        "alt-text": "Surface of a copper and gold nanoparticle with a methyl radical adsorbed. A magnifying glass highlights the bond formed between carbon and copper.",
+        "caption": "This was originally made as a TOC graphic for my 2019 publication to Science Advances, but because the journal doesn't seem to accept TOC graphics, it never really got used.",
+        "animation": "static_image"
+    },
+    {
+        "filename": "Energy.png",
+        "alt-text": "An array of solar panels sits in the center of an unmowed green field of grass. The sky is barely overcast, but is still rather bright.",
+        "caption": "Rendering of a solar panel created as content for the Nanocluster Explorer educatrional game.",
+        "animation": "static_image"
+    },
+    {
+        "filename": "Electronics.png",
+        "alt-text": "A sheet of graphene has a glowing blue ghost of a battery above it. A stream of particles is seen flowing between the carbon and the battery.",
+        "caption": "Illustration representing energy storage created for the Nanocluster Explorer educational game.",
+        "animation": "static_image"
+    },
+    {
+        "filename": "Catalytic_Converter.png",
+        "alt-text": "A catalytic converter on a wood floor. Black smoke flows into the device in a clear tube, and a cutaway in the converter shows it being converted to white gas, exiting in a subsequent pipe.",
+        "caption": "Catalytic converter illustration made for the Nanocluster Explorer educational game.",
+        "animation": "static_image"
+    },
+    {
+        "filename": "Medical.png",
+        "alt-text": "An image of a blood vessel contains red blood cells and white blood cells. HIV viruses are on the surface of a white blood cell. A nanobot resembling a sapceship is attacking the HIV.",
+        "caption": "Scifi image of a nanobot (really, it looks more like a spaceship) I made for the Nanocluster Explorer educational game.",
+        "animation": "static_image"
     }
 ]
