@@ -10,7 +10,7 @@ title: Portfolio
 
     {% for entry in site.data.portfolio %}
         <hr>
-        <div class="portfolio-image"><img src="/assets/portfolio/placeholder.svg" alt="{{entry.alt-text}}">
+        <div class="portfolio-image"><img src="/assets/portfolio/{{entry.filename}}" alt="{{entry.alt-text}}">
         <p>{{entry.caption}}</p>
         </div>
     {% endfor %}
