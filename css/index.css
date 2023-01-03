@@ -1,0 +1,18 @@
+body {
+  display: grid;
+  /* grid-template-columns: 1fr 1fr; */
+}
+
+body::before,
+body::after {
+  display: none;
+}
+
+body .content {
+  grid-column: 1 / 3;
+}
+
+body .buttons {
+  grid-column: 3;
+  text-align: center;
+}

@@ -1,35 +1,73 @@
 html {
   background-image: url("/assets/background.jpg");
+  overflow-y: scroll;
 }
 
 header,
 footer,
-body .content {
+body .content,
+body .buttons {
   color: white;
   background-color: rgba(71, 107, 121, 0.9);
   box-shadow: inset 0 0 0 1px rgba(255, 255, 255, 0.1), inset 0 0 0 3px rgba(255, 255, 255, 0.2), inset 0 0 0 5px rgba(255, 255, 255, 0.3);
   padding: 20px;
+  margin: 5px;
 }
+
+/* =========== */
+/* Header here */
+/* =========== */
 
 header {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 50%);
 }
+
+header .titlegroup {
+  grid-column: 1;
+  grid-row: 1 / 3;
+  margin: auto;
+}
+
+header .location {
+  grid-column: 3;
+  grid-row: 1/3;
+  margin: auto;
+}
+
+/* ======== */
+/* Nav here */
+/* ======== */
 
 nav {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  grid-column: 2;
+  grid-row: 1/3;
+  align-items: center;
 }
 
 nav a {
-  display: block;
-  background-color: tomato;
-  margin: 0 10px;
   padding: 10px;
+  margin: 0 10px;
+
+  background-color: tomato;
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(0, 0, 0, 0.8);
+
   text-decoration: none;
   color: white;
-  align-self: center;
+  text-align: center;
 }
+
+nav a:active {
+  box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.5), inset 0 0 0 4px rgba(0, 0, 0, 0.7), inset 0 0 0 2px rgba(0, 0, 0, 1);
+  transform: translate(0, 1px);
+}
+
+/* ========= */
+/* Body here */
+/* ========= */
 
 body {
   display: grid;
