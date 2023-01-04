@@ -30,12 +30,23 @@ header .titlegroup {
   margin: auto;
 }
 
-header .location {
+.contact-box {
   grid-column: 3;
   grid-row: 1/3;
   margin: auto;
+  grid-template-rows: repeat(3, 1fr);
 }
 
+.contact-box p {
+  line-height: 1.5;
+  text-align-last: right;
+}
+
+.contact-box a,
+.contact-box img {
+  display: inline-block;
+  vertical-align: middle;
+}
 /* ======== */
 /* Nav here */
 /* ======== */
