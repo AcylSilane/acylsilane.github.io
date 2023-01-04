@@ -1,0 +1,97 @@
+article {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+article h2 {
+  text-decoration: underline;
+  text-align: center;
+}
+
+.summary {
+  text-align: justify;
+}
+
+/* Shared */
+
+.skills div,
+.experience div,
+.education div {
+  border-style: groove;
+  border-radius: 5%;
+  border-width: 1px;
+  border-color: tomato;
+  margin: 5px;
+  padding: 10px;
+}
+
+.experience ul li,
+.publications li,
+.presentations li,
+.grants li,
+.education ul li,
+.achievements ul li {
+  text-align: justify;
+  margin: 5pt;
+}
+
+/* Skills section */
+.skills {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+}
+.skills h3 {
+  font-weight: 400;
+  font-style: italic;
+}
+
+.skills div h3 {
+  text-align: center;
+}
+
+.skills ul li {
+  margin: 5pt;
+}
+
+/* Experience Section */
+.experience h3 {
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience .job-title {
+  float: left;
+}
+
+.experience .date {
+  float: right;
+  font-weight: normal;
+}
+
+.experience .company-name {
+  font-style: italic;
+}
+
+/* Publications */
+.authors .highlighted-author {
+  font-weight: bold;
+  color: tomato;
+}
+
+.articleTitle {
+  text-decoration: underline;
+}
+
+.journalTitle {
+  font-style: italic;
+}
+
+.articleYear {
+  font-weight: bold;
+}
+
+/* Grants */
+ol.grants li span.grant-amount {
+  text-decoration: underline;
+}

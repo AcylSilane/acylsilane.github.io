@@ -16,3 +16,8 @@ body .buttons {
   grid-column: 3;
   text-align: center;
 }
+
+article {
+  margin-left: 10%;
+  margin-right: 10%;
+}
