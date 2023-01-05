@@ -1,14 +1,6 @@
-async function includeHTML(filePath, elementID) {
-  const response = await fetch(filePath);
-  const html = await response.text();
-  const element = document.getElementById(elementID);
-  element.insertAdjacentHTML("beforeend", html);
-  return element;
-}
-
-// Nav goes into header
-// Header goes before the body
-// Footer goes after the body
+/**
+ * Adds the header (w/ navbar) and footer (w/ current dates) to the website
+ */
 async function includeSiteComponents() {
   const body = document.body;
   const [header_html, footer_html, nav_html] = await Promise.all([
@@ -22,10 +14,15 @@ async function includeSiteComponents() {
   header.insertAdjacentHTML("beforeend", await nav_html.text());
   body.insertAdjacentHTML("afterend", await footer_html.text());
 
-  insertLastModifiedDate(document.getElementsByTagName("footer")[0]);
+  addFooterDates(document.getElementsByTagName("footer")[0]);
 }
 
-async function insertLastModifiedDate(element) {
+/**
+ * Updates the dates in the footer. Current year for copyright, and last modified.
+ * @param {HTMLElement} element The HTML element containing the footer.
+ */
+async function addFooterDates(element) {
+  const currentYear = new Date().getFullYear();
   const lastModified = new Date(document.lastModified).toLocaleString("en-US", {
     hour12: false,
     timeZone: "America/New_York",
@@ -38,8 +35,9 @@ async function insertLastModifiedDate(element) {
     second: "numeric",
   });
 
+  const copyright = `<p class="copyrightDate">© 2020 - ${currentYear} James Dean</p>`;
   const lastModifiedHTML = `<p class="footerLastModified">Last modified ${lastModified}</p>`;
 
-  element.insertAdjacentHTML("beforeend", lastModifiedHTML);
+  element.insertAdjacentHTML("beforeend", copyright + lastModifiedHTML);
 }
 includeSiteComponents();
