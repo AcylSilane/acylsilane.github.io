@@ -8,10 +8,6 @@ article h2 {
   text-align: center;
 }
 
-.summary {
-  text-align: justify;
-}
-
 /* Shared */
 .skills div,
 .experience div,
@@ -24,6 +20,7 @@ article h2 {
   padding: 10px;
 }
 
+.summary,
 .experience ul li,
 .publications li,
 .presentations li,
@@ -98,4 +95,23 @@ article h2 {
 /* Grants */
 ol.grants li span.grant-amount {
   text-decoration: underline;
+}
+
+@media (max-width: 767px) {
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: repeat(6, 1fr);
+  }
+}
+
+@media (max-width: 920px) {
+  .experience div span {
+    float: none !important;
+  }
+
+  span.company-name::after {
+    content: "\a";
+    white-space: pre;
+  }
 }
