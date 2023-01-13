@@ -70,12 +70,14 @@ article h2 {
   float: left;
 }
 
-.experience .date {
+.experience .event-date,
+.education .event-date {
   float: right;
   font-weight: normal;
 }
 
-.experience .company-name {
+.experience .company-name,
+.education .university-name {
   font-style: italic;
 }
 
@@ -121,11 +123,13 @@ ol.grants li span.grant-amount {
 }
 
 @media (max-width: 920px) {
-  .experience div span {
+  .experience div span,
+  .education div span {
     float: none !important;
   }
 
-  span.company-name::after {
+  span.company-name::after,
+  span.university-name::after {
     content: "\a";
     white-space: pre;
   }
