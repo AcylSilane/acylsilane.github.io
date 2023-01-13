@@ -55,6 +55,11 @@ article h2 {
   margin: 5pt;
 }
 
+.skills .miscTools ul {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
 /* Experience Section */
 .experience h3 {
   display: flex;
@@ -95,6 +100,16 @@ article h2 {
 /* Grants */
 ol.grants li span.grant-amount {
   text-decoration: underline;
+}
+
+/* ======================= */
+/* Styles for tiny screens */
+/* ======================= */
+
+@media (max-width: 600px) {
+  .skills .miscTools ul {
+    grid-template-columns: 1fr;
+  }
 }
 
 @media (max-width: 767px) {
