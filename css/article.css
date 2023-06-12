@@ -1,0 +1,23 @@
+article {
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  grid-column-gap: 5%;
+}
+
+dt {
+  float: left;
+  clear: left;
+  width: 30%;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+dd {
+  margin-left: 0;
+}
