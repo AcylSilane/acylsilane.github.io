@@ -1,13 +1,13 @@
-body {
+main {
   display: grid;
   /* grid-template-columns: 1fr 1fr; */
 }
 
-body .content {
+main .content {
   grid-column: 1 / 3;
 }
 
-body .buttons {
+main .buttons {
   grid-column: 3;
   text-align: center;
 }
