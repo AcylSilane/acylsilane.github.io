@@ -28,6 +28,33 @@ footer {
 /* ====== */
 /* Layout */
 /* ====== */
+body {
+  display: grid;
+  grid-template-columns: 150px auto;
+  grid-template-rows: auto auto auto;
+  min-height: 100vh;
+  margin: 0;
+}
+
+header {
+  grid-column: 1 / -1;
+  grid-row: 1;
+}
+
+nav {
+  grid-column: 1;
+  grid-row: 2;
+}
+
+main {
+  grid-column: 2 / -1;
+  grid-row: 2;
+}
+
+footer {
+  grid-column: 1 / -1;
+  grid-row: 3;
+}
 
 /* ============= */
 /* Content Boxes */
@@ -81,21 +108,19 @@ header .titlegroup {
 /* ======== */
 
 nav {
-  display: grid;
-  grid-template-rows: repeat(3, 1fr);
-  grid-column: 2;
-  grid-row: 1/3;
+  display: flex;
+  flex-direction: column;
   align-items: center;
-  justify-items: center;
+  padding-top: 5px !important;
 }
 
 /* Buttons */
 nav a {
   font-weight: bolder;
   padding: 10px;
-  margin: 0 10px;
+  margin: 1px 0;
   height: 20px;
-  width: 80px;
+  width: 100px;
 
   background-color: tomato;
   box-shadow: inset 0 0 0 1px rgba(0, 0, 0, 0.25), inset 0 0 0 5px rgba(0, 0, 0, 0.5), inset 0 0 0 2px rgba(0, 0, 0, 0.8);
@@ -117,8 +142,7 @@ nav a:active {
 
 body {
   display: grid;
-  margin-left: 10%;
-  margin-right: 10%;
+  margin: 0;
 }
 
 /* Text styling */

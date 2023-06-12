@@ -9,9 +9,9 @@ async function includeSiteComponents() {
     await fetch("/includes/nav.html"),
   ]);
 
-  body.insertAdjacentHTML("beforebegin", await header_html.text());
-  body.insertAdjacentHTML("beforebegin", await nav_html.text());
-  body.insertAdjacentHTML("afterend", await footer_html.text());
+  body.insertAdjacentHTML("afterbegin", await header_html.text());
+  body.insertAdjacentHTML("afterbegin", await nav_html.text());
+  body.insertAdjacentHTML("beforeend", await footer_html.text());
 
   addFooterDates(document.getElementsByTagName("footer")[0]);
 }
