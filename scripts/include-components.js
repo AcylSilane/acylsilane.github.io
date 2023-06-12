@@ -8,10 +8,9 @@ async function includeSiteComponents() {
     await fetch("/includes/footer.html"),
     await fetch("/includes/nav.html"),
   ]);
-  body.insertAdjacentHTML("beforebegin", await header_html.text());
 
-  const header = document.getElementsByTagName("header")[0];
-  header.insertAdjacentHTML("beforeend", await nav_html.text());
+  body.insertAdjacentHTML("beforebegin", await header_html.text());
+  body.insertAdjacentHTML("beforebegin", await nav_html.text());
   body.insertAdjacentHTML("afterend", await footer_html.text());
 
   addFooterDates(document.getElementsByTagName("footer")[0]);
