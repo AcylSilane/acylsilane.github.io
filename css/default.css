@@ -12,14 +12,14 @@ html {
 
 /* Links */
 a:not(nav a) {
-  color: white;
+  color: palegoldenrod;
 }
 a:hover,
 a:focus {
   color: lightblue;
 }
 a:not(nav a):active {
-  color: yellow;
+  color: lightyellow;
 }
 
 body,
