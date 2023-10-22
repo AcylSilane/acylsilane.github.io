@@ -104,6 +104,11 @@ ol.grants li span.grant-amount {
   text-decoration: underline;
 }
 
+.doi::before {
+    content: "\a";
+    white-space: pre;
+}
+
 /* ======================= */
 /* Styles for tiny screens */
 /* ======================= */
