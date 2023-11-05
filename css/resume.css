@@ -52,7 +52,7 @@ article h2 {
 }
 
 .skills ul li {
-  margin: 5pt;
+  margin: 1pt;
 }
 
 .skills .miscTools ul {
@@ -106,8 +106,8 @@ ol.grants li span.grant-amount {
 
 .doi::before,
 .preprint-doi::before {
-    content: "\a";
-    white-space: pre;
+  content: "\a";
+  white-space: pre;
 }
 
 /* ======================= */
