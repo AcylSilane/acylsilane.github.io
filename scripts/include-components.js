@@ -1,5 +1,8 @@
 /**
  * Adds the header (w/ navbar) and footer (w/ current dates) to the website
+ * Not actually using this anymore, because I didn't like how it jittered the screen
+ * during the load. Plus, it made it so that non-javascript-enabled browsers didn't get
+ * a header, which made browsing from the terminal a bit of a pain.
  */
 async function includeSiteComponents() {
   const body = document.body;
@@ -39,4 +42,3 @@ async function addFooterDates(element) {
 
   element.insertAdjacentHTML("beforeend", copyright + lastModifiedHTML);
 }
-includeSiteComponents();
