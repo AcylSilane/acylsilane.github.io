@@ -42,4 +42,3 @@ async function addFooterDates(element) {
 
   element.insertAdjacentHTML("beforeend", copyright + lastModifiedHTML);
 }
-includeSiteComponents();
